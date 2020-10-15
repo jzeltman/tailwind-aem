@@ -1,0 +1,39 @@
+/* //== XF Header style, used on page template */
+
+header.experiencefragment {
+    @media (prefers-color-scheme: dark) {}
+    a {
+        @media (prefers-color-scheme: dark) {}
+        &:hover, &:focus {
+            @media (prefers-color-scheme: dark) {}
+        }
+    }
+    /* //== Grid layout */
+    .cmp-container {}
+    /* //== Navigation */
+    .cmp-navigation__group {}
+    .cmp-navigation__item--level-0 {
+        &>.cmp-navigation__group {}
+    }
+    .cmp-navigation__item-link {}
+    .cmp-navigation__item--active>.cmp-navigation__item-link {}
+    /* //== Language Navigation */
+    .cmp-languagenavigation {
+        &::before {
+            @media (prefers-color-scheme: dark) {}
+        }
+        &>.cmp-languagenavigation__group {
+            @media (prefers-color-scheme: dark) {}
+        }
+        &:hover>.cmp-languagenavigation__group {}
+    }
+    .cmp-languagenavigation__group {}
+    .cmp-languagenavigation__item-title {}
+    .cmp-languagenavigation__item--level-0 {}
+    .cmp-languagenavigation__item--level-1 {}
+    .cmp-languagenavigation__item--level-1:not(:first-child)::before {}
+    .cmp-languagenavigation__item--active>.cmp-languagenavigation__item-link {}
+    /* //== Search */
+    .cmp-search__field {}
+    .cmp-search__input {}
+}

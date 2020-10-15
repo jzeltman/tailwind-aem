@@ -1,0 +1,8 @@
+/* //== XF Footer style, used on page template */
+
+footer.experiencefragment {
+    .cmp-separator__horizontal-rule {
+        margin: 0;
+        border: 0;
+    }
+}
